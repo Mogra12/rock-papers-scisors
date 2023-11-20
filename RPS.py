@@ -1,6 +1,7 @@
 import random
 from time import sleep
 
+
 rps = ['rock', 'papers', 'scisors']
 
 interface = """
@@ -8,6 +9,7 @@ Rock
 Papers
 Scissors
 """
+
 
 def rps_game():
     print(interface)
@@ -30,5 +32,6 @@ def rps_game():
         print("You lost!")
     elif user_choice =='scisors' and computer_choice == 'papers':
         print("You won!")
+
 
 rps_game()
